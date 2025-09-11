@@ -1,0 +1,32 @@
+{
+  "name": "js-framework-benchmark-non-keyed-vue-next-n",
+  "version": "1.0.0",
+  "description": "Benchmark for vue.js framework",
+  "js-framework-benchmark": {
+    "frameworkVersionFromPackage": "vue-n",
+    "frameworkHomeURL": "https://vue.js.org/"
+  },
+  "scripts": {
+    "build-dev": "webpack --mode development --watch",
+    "build-prod": "webpack --mode production"
+  },
+  "keywords": [
+    "vue-n"
+  ],
+  "author": "Stefan Krause",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/krausest/js-framework-benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krausest/js-framework-benchmark.git"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "latest",
+    "vue-loader": "latest",
+    "webpack": "5.88.1",
+    "webpack-cli": "5.1.4"
+  },
+  "dependencies": {
+    "vue": "^3.5.21"
+  }
+}
