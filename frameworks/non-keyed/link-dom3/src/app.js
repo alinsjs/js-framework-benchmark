@@ -66,7 +66,7 @@ const App = ()=>{
         dom.div.class('jumbotron').append(
             dom.div.class('row').append(
                 dom.div.class('col-md-6').append(
-                    dom.h1.text('LinkDom2 (Non keyed)')
+                    dom.h1.text('LinkDom3 (Non keyed)')
                 ),
                 dom.div.class('col-md-6').append(
                     dom.div.class('row').append(

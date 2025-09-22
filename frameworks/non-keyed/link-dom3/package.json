@@ -1,13 +1,13 @@
 {
-  "name": "js-framework-benchmark-non-keyed-link-dom2",
+  "name": "js-framework-benchmark-non-keyed-link-dom3",
   "version": "1.0.0",
-  "description": "Benchmark for link-dom2 framework",
+  "description": "Benchmark for link-dom3 framework",
   "js-framework-benchmark": {
-    "frameworkVersion": "0.0.1",
+    "frameworkVersion": "0.0.2",
     "frameworkHomeURL": ""
   },
   "keywords": [
-    "link-dom2"
+    "link-dom3"
   ],
   "scripts": {
     "build-dev": "rollup -c -w",

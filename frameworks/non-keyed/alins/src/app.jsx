@@ -7,16 +7,19 @@
  */
 import {buildData} from './data';
 
+// import {version} from 'alins'
+// console.log(version);
+
 let selected = -1;
 let rows = [];
 function add () {
     rows.push(...buildData());
 }
 
-window.selected = ()=>{
-    selected;
-    debugger;
-}
+// window.selected = ()=>{
+//     selected;
+//     debugger;
+// }
 
 function remove (id) {
     rows.splice(
