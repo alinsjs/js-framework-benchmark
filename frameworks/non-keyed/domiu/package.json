@@ -1,9 +1,9 @@
 {
   "name": "js-framework-benchmark-non-keyed-domiu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Benchmark for domiu framework",
   "js-framework-benchmark": {
-    "frameworkVersion": "1.0.0",
+    "frameworkVersion": "1.0.2",
     "frameworkHomeURL": ""
   },
   "keywords": [
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "rollup": "2.45.2",
-    "domiu": "^1.0.1",
+    "domiu": "^1.0.3",
     "rollup-plugin-commonjs": "10.0.0",
     "rollup-plugin-node-resolve": "5.0.3",
     "rollup-plugin-terser": "7.0.2"

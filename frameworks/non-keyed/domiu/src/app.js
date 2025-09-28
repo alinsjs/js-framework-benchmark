@@ -77,42 +77,42 @@ const App = () => {
                                 attr: { type: 'button' },
                                 class: 'btn btn-primary btn-block',
                                 id: 'run',
-                                onclick: run,
+                                click: run,
                                 text: 'Create 1,000 rows'
                             }),
                             dom.button({
                                 attr: { type: 'button' },
                                 class: 'btn btn-primary btn-block',
                                 id: 'runlots',
-                                onclick: runLots,
+                                click: runLots,
                                 text: 'Create 10,000 rows'
                             }),
                             dom.button({
                                 attr: { type: 'button' },
                                 class: 'btn btn-primary btn-block',
                                 id: 'add',
-                                onclick: add,
+                                click: add,
                                 text: 'Append 1,000 rows'
                             }),
                             dom.button({
                                 attr: { type: 'button' },
                                 class: 'btn btn-primary btn-block',
                                 id: 'update',
-                                onclick: update,
+                                click: update,
                                 text: 'Update every 10th row'
                             }),
                             dom.button({
                                 attr: { type: 'button' },
                                 class: 'btn btn-primary btn-block',
                                 id: 'clear',
-                                onclick: clear,
+                                click: clear,
                                 text: 'Clear'
                             }),
                             dom.button({
                                 attr: { type: 'button' },
                                 class: 'btn btn-primary btn-block',
                                 id: 'swaprows',
-                                onclick: swapRows,
+                                click: swapRows,
                                 text: 'Swap Rows'
                             })
                         ])
@@ -130,7 +130,7 @@ const App = () => {
                         dom.td({ class: 'col-md-1' }, [
                             dom.span({ text: () => item.id })
                         ]),
-                        dom.td({ class: 'col-md-4', onclick: () => { selected.value = item.id;} }, [
+                        dom.td({ class: 'col-md-4', click: () => { selected.value = item.id;} }, [
                             dom.a([ dom.span({ text: () => item.label }) ])
                         ]),
                         dom.td({ class: 'col-md-1' }, [
@@ -138,7 +138,7 @@ const App = () => {
                                 dom.span({ 
                                     class: 'glyphicon glyphicon-remove', 
                                     attr: { 'aria-hidden': 'true' },
-                                    onclick: () => { remove(item.id); }
+                                    click: () => { remove(item.id); }
                                 })
                             ])
                         ]),

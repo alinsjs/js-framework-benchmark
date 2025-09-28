@@ -8,7 +8,7 @@
 import {buildData} from './data';
 // import {LinkDom} from './core.iife.min';
 
-const { mount, dom, raw, ctrl, ref} = window.Core;
+const { mount, dom, raw, ctrl, ref} = window.LinkDom;
 
 let selected = ref(-1);
 let rows = ref([]);
